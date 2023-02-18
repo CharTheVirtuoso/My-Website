@@ -25,7 +25,7 @@ const SideNav = () => {
                 </a>
                 <a href="#home" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor hover:scale-110 ease-in duration-200 '>
                     <HiAcademicCap size={20}/>
-                    <span className='pl-4'>About</span>
+                    <span className='pl-4'>Education</span>
 
                 </a>
                 <a href="#home" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor hover:scale-110 ease-in duration-200 '>
@@ -56,7 +56,7 @@ const SideNav = () => {
                 <AiOutlineHome size={20}/>
 
             </a>
-            <a href='#about' className='rounded-full shadow-lg bg-gray-500 shadow-gray-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+            <a href='#education' className='rounded-full shadow-lg bg-gray-500 shadow-gray-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <HiAcademicCap size={20}/>
 
             </a>
