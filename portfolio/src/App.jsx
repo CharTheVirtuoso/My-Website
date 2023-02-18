@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Education from './components/Education';
 import Main from './components/Main';
+import Projects from './components/Projects';
 import SideNav from './components/SideNav';
 
 
@@ -12,6 +13,7 @@ function App() {
       <SideNav/>
       <Main/>
       <Education/>
+      <Projects/>
     </div>
   )
 }
