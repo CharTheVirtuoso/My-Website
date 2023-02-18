@@ -22,7 +22,7 @@ const data = [
 
 function Education() {
   return (
-    <div id='education' className='bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 max-w-[-140px] m-auto md:pl-20 p-4 py-16'>
+    <div id='education' className='bg-gradient-to-r  from-black  to-gray-900 max-w-[-140px] m-auto md:pl-20 p-4 py-16'>
         <h1 className='text-4xl font-extrabold text-center  text-red-800'>Education</h1>
         {data.map((item,idx)=>(
             <EduItem 
