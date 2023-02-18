@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Education from './components/Education';
 import Main from './components/Main';
 import SideNav from './components/SideNav';
 
@@ -10,6 +11,7 @@ function App() {
     <div >
       <SideNav/>
       <Main/>
+      <Education/>
     </div>
   )
 }
