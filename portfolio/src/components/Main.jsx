@@ -3,6 +3,7 @@ import main from "../assets/back.png";
 import {  FaLinkedinIn } from 'react-icons/fa'
 import { FiGithub } from 'react-icons/fi';
 import { SiGmail } from 'react-icons/si';
+// import { Link } from 'react-router-dom';
 
 
 import { TypeAnimation } from 'react-type-animation'
@@ -31,9 +32,15 @@ const Main = () => {
                         />
                     </h2>
                     <div className='flex justify-between pt-6 max-w-[150px] w-full' >
-                        <FaLinkedinIn color='white' className='cursor-pointer' size={20} />
+                        {/* <Link to="https://www.linkedin.com/in/chanukya-Serasinghe"> */}
+                        <FaLinkedinIn  color='white' className='cursor-pointer' size={20} />
+                        {/* </Link >
+                        <Link to="https://github.com/ghostfacegangsta"> */}
                         <FiGithub color='white' className=' cursor-pointer' size={20}/>
+                        {/* </Link>
+                        <Link to="https://www.gmail.com"> */}
                         <SiGmail color='white' className=' cursor-pointer' size={20}/>
+                        {/* </Link> */}
                         
                     </div>
                 </div>
