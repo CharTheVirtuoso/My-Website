@@ -12,7 +12,7 @@ const Main = () => {
     return (
         <div id='main'>
             <img className='w-full h-screen object-cover object-left scale-x-[-1]' src={main} />
-            <div className='w-full h-screen absolute top-0 left-0 bg-black/50'>
+            <div className='w-full h-screen absolute top-0 left-0 bg-black/30'>
                 <div className=' max-w-[1000px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center '>
                     <h1 className='sm-text-6xl text-5xl font-bold text-gray-400'>I'm Chanukya Serasinghe</h1>
                     <h2 className='flex sm:text-2xl text-2xl pt-4 text-gray-400 '>I'm a
